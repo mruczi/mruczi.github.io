@@ -3,23 +3,29 @@
   height: 92vh;
   width: 100%;
   background-size: cover;
-  border-radius: 10px solid black;
-}
-.travelbody {
-  overflow-x: hidden;
 }
 
 .galeriat_tytul {
+  background-color: #313033;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 15px 70px;
+  margin: 0;
+  text-decoration: none;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 5px;
+}
+
+.galeriat_tytul:hover {
   background-color: black;
   color: white;
-  font-size: 25px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: 2px solid grey;
 }
+
 .trav {
-  background-color: grey;
+  background-color: #a55959;
   border: solid 2px black;
   border-radius: 1px;
   height: 50px;
@@ -58,7 +64,7 @@
   overflow: hidden;
   height: 200px;
   transition-property: height;
-  transition-duration: 2.5s;
+  transition-duration: 4.5s;
   transition-timing-function: linear;
   transition-delay: 1.5s;
 }
@@ -66,6 +72,8 @@
 .tbox-container:hover .img {
   height: 150px;
   transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .img {
   transition-property: all;
