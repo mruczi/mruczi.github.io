@@ -6,11 +6,22 @@
     <title>travel mrukowisko</title>
     <link href="stylesheets/normalize.css" rel="stylesheet">
     <link href="stylesheets/maintravel.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $("#trav").click(function(){
+            $("#galeriat").toggle();
+          });
+        });
+</script>
+
   </head>
 
 <body class="tbody">
 
-  <section class="thero"></section>
+  <section class="thero" id="thero">
+  </section>
 
     <div class="galeriat_tytul">
       <a href="#trav" class="galeriat_tytul">miejsca</a>
@@ -18,13 +29,12 @@
 
 
 <section class="trav" id="trav">
-      <div class="trav__content">
-
+      <div class="trav__content" id="trav__content">
         <h1 class="trav1">Malta 2016</h1>
       </div>
 </section>
 
-<section class="galeriat" id="galleryt">
+<section class="galeriat" id="galeriat">
      <div class="galleryt_content">
        <div class="galleryt_row">
          <div class="tbox-container">
@@ -81,12 +91,11 @@
 
         <section class="trav" id="trav">
               <div class="trav__content">
-
                 <h1 class="trav2">Austalia 2015</h1>
               </div>
         </section>
 
-        <section class="galeriat" id="galleryt">
+        <section class="galeriat" id="galeriat">
              <div class="galleryt_content">
                <div class="galleryt_row">
                  <div class="tbox-container">
@@ -140,13 +149,12 @@
 
         <section class="trav" id="trav">
               <div class="trav__content">
-
                 <h1 class="trav3">Korsyka 2015</h1>
               </div>
         </section>
 
 
-        <section class="galeriat" id="galleryt">
+        <section class="galeriat" id="galeriat">
              <div class="galleryt_content">
                <div class="galleryt_row">
                  <div class="tbox-container">
@@ -201,12 +209,11 @@
 
         <section class="trav" id="trav">
               <div class="trav__content">
-
                 <h1 class="trav4">Sycylia 2014</h1>
               </div>
         </section>
 
-        <section class="galeriat" id="galleryt">
+        <section class="galeriat" id="galeriat">
              <div class="galleryt_content">
                <div class="galleryt_row">
                  <div class="tbox-container">
@@ -264,7 +271,7 @@
               </div>
         </section>
 
-        <section class="galeriat" id="galleryt">
+        <section class="galeriat" id="galeriat">
              <div class="galleryt_content">
                <div class="galleryt_row">
                  <div class="tbox-container">

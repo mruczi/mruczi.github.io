@@ -1,8 +1,12 @@
 .thero {
   background-image: url("../images/wish.jpg");
-  height: 92vh;
   width: 100%;
+  height: 92vh;
   background-size: cover;
+}
+
+#galeriat {
+  display: none;
 }
 
 .galeriat_tytul {
@@ -25,7 +29,7 @@
 }
 
 .trav {
-  background-color: #a55959;
+  background-color: #313033;
   border: solid 2px black;
   border-radius: 1px;
   height: 50px;
@@ -40,8 +44,8 @@
 }
 
 .trav:hover {
-  color: black;
-  background-color: #eeeeee;
+  color: white;
+  background-color: #666666;
   display: flex;
 }
 
@@ -87,7 +91,7 @@
   padding: 15px 0;
   text-align: center;
   background-color: black;
-  margin-top: 2px;
+  margin-top: 0;
 }
 
 .footer_border {
