@@ -67,7 +67,7 @@
 
 .about {
   overflow: hidden;
-  background-color: #9d9d9f;
+  background-color: #eeeeee;
   overflow: hidden;
   padding-bottom: 30px;
 }
@@ -80,7 +80,7 @@
   padding: 2px 2px;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
-  color: white;
+  color: black;
 }
 
 .skills__column {
@@ -109,11 +109,12 @@
 }
 
 .zalety {
+  background-color: #eeeeee;
   text-align: center;
   font-size: 20px;
   color: black;
   padding-top: 20px;
-  border: white 2px solid;
+  border: #eeeeee 2px solid;
   font-family: 'Lato', sans-serif;
   padding-bottom: 50px;
 }
@@ -191,9 +192,9 @@
 }
 
 .contact__button:hover {
-  color: #81cde7;
+  color: black;
   background-color: #b0a8a8;
-  border-color: #black;
+  border-color: 1px solid black;
 }
 
 .ala { text-align: center; }

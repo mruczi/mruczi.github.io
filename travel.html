@@ -6,32 +6,32 @@
     <title>travel mrukowisko</title>
     <link href="stylesheets/normalize.css" rel="stylesheet">
     <link href="stylesheets/maintravel.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
-<script>
-    $(document).ready(function(){
-        $("#button").click(function(){
-            $(".galeriat").toggle();
-          });
-        });
-</script>
+    <script>
+    $(function() {
+      $( "#accordion" ).accordion();
+    });
+    </script>
 
   </head>
 
 <body class="tbody">
 
-  <section class="thead">
+  <div class="thead">
+  </div>
       <div class="moto">
-      <p>A droga wiedzie w przód i w przód
-Choć zaczęła się tuż za progiem –
-I w dal przede mną mknie na wschód,
-A ja wciąż za nią – tak jak mogę…
-Skorymi stopy za nią w ślad –
-Aż w szerszą się rozpłynie drogę,
-Gdzie strumień licznych dróg już wpadł…
-A potem dokąd? – rzec nie mogę..</p>
+      <p><i>A droga wiedzie w przód i w przód <br>
+Choć zaczęła się tuż za progiem  - <br>
+I w dal przede mną mknie na wschód, <br>
+A ja wciąż za nią – tak jak mogę… <br>
+Skorymi stopy za nią w ślad – <br>
+Aż w szerszą się rozpłynie drogę, <br>
+Gdzie strumień licznych dróg już wpadł… <br>
+A potem dokąd? – rzec nie mogę..</i></p>
 </div>
-  </section>
 
   <div class="fling" id="fling">
     <p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym.
@@ -51,12 +51,10 @@ A potem dokąd? – rzec nie mogę..</p>
       druków na komputerach osobistych, jak Aldus PageMaker</p>
   </div>
 
-    <div class="galeriat_tytul">
-      <a href="#trav" class="galeriat_tytul">miejsca</a>
-    </div>
+    <div class="galeriat_tytul">Galeria</div>
 
-      <div class="button" id="button">
-        <h1 class="trav1">Malta 2016</h1>
+      <div class="button" id="accordion">
+        <h1>Malta 2016</h1>
       </div>
 
 <section class="galeriat">
@@ -111,8 +109,8 @@ A potem dokąd? – rzec nie mogę..</p>
      </div>
    </section>
 
-              <div class="button" id="button">
-                <h1 class="trav2">Austalia 2015</h1>
+              <div class="button" id="accordion">
+                <h1>Austalia 2015</h1>
               </div>
 
         <section class="galeriat">
