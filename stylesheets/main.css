@@ -24,9 +24,9 @@
   #menu > li {
   display: inline;
   list-style-type: none;
-  font-size: 25px;
+  font-size: 20px;
   padding: 30px;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
   a:link {
